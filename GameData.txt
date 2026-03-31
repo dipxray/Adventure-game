@@ -1,0 +1,13 @@
+health=3
+keys=0
+x=912
+y=2288
+hasApple=false
+hasCherry=false
+hasCat=false
+hasSword=true
+hasDiamond=false
+questStage=7
+currentMap=Map2.txt
+removed=mymap.txt:7,mymap.txt:6,mymap.txt:5,mymap.txt:4,mymap.txt:10,mymap.txt:3,mymap.txt:2,mymap.txt:0,mymap.txt:11,mymap.txt:9,mymap.txt:8,
+removedNPCs=mymap.txt:2,mymap.txt:0,
