@@ -10,10 +10,10 @@ public class Sound {
 
     public Sound() {
 
-        // 🌊 Sea sound
+        // Sea sound
         soundURL[0] = getClass().getResource("/res/sound/mixkit-sea-waves-with-birds-loop-1185.wav");
 
-        // ⏸️ Pause sound
+        // Pause sound
         soundURL[1] = getClass().getResource("/res/sound/mixkit-retro-arcade-game-over-470.wav");
         // Object Collect sound
         soundURL[2] = getClass().getResource("/res/sound/collect.wav");
@@ -21,8 +21,8 @@ public class Sound {
         soundURL[3] = getClass().getResource("/res/sound/mixkit-creaky-door-open-195_1.wav");
         soundURL[4] = getClass().getResource("/res/sound/mixkit-samurai-sword-impact-2789.wav"); // sword
 
-        // 🎵 Background music
-        soundURL[6] = getClass().getResource("/res/sound/moodmode-this-8-bit-music-short-245264.wav");
+        // Background music
+        soundURL[6] = getClass().getResource("/res/sound/niknet_art-retro-8bit-happy-videogame-music-246631.wav");
     }
 
     public void setFile(int i) {
@@ -33,7 +33,7 @@ public class Sound {
                 return;
             }
 
-            // 🔥 Close previous clip properly
+            //  Close previous clip properly
             if (clip != null) {
                 clip.stop();
                 clip.close();
